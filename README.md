@@ -13,7 +13,10 @@
 ![t3](./screenshots/240713_22h55m14s_screenshot.png)
 
 ## Installation
-
+```sh
+Hyde theme patch "Red Stone" https://github.com/mahaveergurjar/Red-Stone
+```
+or 
 ```sh
 Hyde theme patch
 ```
