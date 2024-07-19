@@ -1,11 +1,16 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-exec = gsettings set org.gnome.desktop.interface icon-theme 'Tela-circle-red'
-exec = gsettings set org.gnome.desktop.interface gtk-theme 'Red-Stone'
+
+$SDDM-THEME = Red-Stone
+$GTK-THEME = Red-Stone
+$ICON-THEME = Tela-circle-red
+
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
 # // Set the sddm theme here
-exec = Hyde sddm set Red-Stone
+exec = Hyde sddm set $SDDM-THEME
 
 general {
     gaps_in = 3
