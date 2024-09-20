@@ -1,0 +1,77 @@
+$HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
+
+## name:     Monokai Pro
+## author:   Monokai
+## license:  MIT
+## blurb:    Monokai Pro color scheme for Kitty terminal.
+
+# The basic colors
+foreground              #F8F8F2
+background              #2d2a2e
+selection_foreground    #2d2a2e
+selection_background    #F8F8F2
+
+# Cursor colors
+cursor                  #F8F8F2
+cursor_text_color       #2d2a2e
+
+# URL underline color when hovering with mouse
+url_color               #F92672
+
+# Kitty window border colors
+active_border_color     #F92672
+inactive_border_color   #A6E3A1
+bell_border_color       #F38BA8
+
+# OS Window titlebar colors
+wayland_titlebar_color system
+macos_titlebar_color system
+
+# Tab bar colors
+active_tab_foreground   #F8F8F2
+active_tab_background   #F92672
+inactive_tab_foreground #F8F8F2
+inactive_tab_background #272822
+tab_bar_background      #272822
+
+# Colors for marks (marked text in the terminal)
+mark1_foreground #F8F8F2
+mark1_background #F92672
+mark2_foreground #F8F8F2
+mark2_background #A6E3A1
+mark3_foreground #F8F8F2
+mark3_background #87B0F9
+
+# The 16 terminal colors
+
+# black
+color0 #272822
+color8 #807d74
+
+# red
+color1 #F92672
+color9 #F92672
+
+# green
+color2  #A6E3A1
+color10 #A6E3A1
+
+# yellow
+color3  #F9E2AF
+color11 #F9E2AF
+
+# blue
+color4  #87B0F9
+color12 #87B0F9
+
+# magenta
+color5  #F5C2E7
+color13 #F5C2E7
+
+# cyan
+color6  #94E2D5
+color14 #94E2D5
+
+# white
+color7  #F8F8F2
+color15 #F8F8F2

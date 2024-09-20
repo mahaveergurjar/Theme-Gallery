@@ -1,0 +1,40 @@
+$HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
+@define-color bar-bg rgba(0, 0, 0, 0);
+
+@define-color main-bg #272822; /* Monokai background */
+@define-color main-fg #F8F8F2; /* Monokai white */
+
+@define-color wb-act-bg #F92672; /* Monokai pink */
+@define-color wb-act-fg #F8F8F2; /* Monokai white */
+
+@define-color wb-hvr-bg #F5C2E7; /* Light pink for hover */
+@define-color wb-hvr-fg #F8F8F2; /* Monokai white */
+
+@define-color highlight-bg #87B0F9; /* Soft blue for highlight */
+@define-color highlight-fg #F8F8F2; /* Monokai white */
+
+@define-color warning-bg #F38BA8; /* Light pink for warnings */
+@define-color warning-fg #272822; /* Monokai background for contrast */
+
+@define-color success-bg #A6E3A1; /* Light green for success */
+@define-color success-fg #272822; /* Monokai background */
+
+@define-color error-bg #F38BA8; /* Pinkish-red for errors */
+@define-color error-fg #272822; /* Monokai background */
+
+/* Additional colors */
+@define-color info-bg #66D9EF; /* Monokai blue for info */
+@define-color info-fg #F8F8F2; /* Monokai white */
+
+@define-color neutral-bg #49483E; /* Neutral dark gray */
+@define-color neutral-fg #A6E22E; /* Light green for neutral text */
+
+@define-color secondary-bg #75715E; /* Mid-tone gray */
+@define-color secondary-fg #F8F8F2; /* Monokai white */
+
+@define-color accent-bg #AE81FF; /* Monokai purple for accents */
+@define-color accent-fg #F8F8F2; /* Monokai white */
+
+
+
+
