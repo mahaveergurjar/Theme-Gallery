@@ -1,0 +1,46 @@
+$HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
+
+$GTK-THEME = Greenify
+$ICON-THEME = Tela-circle-green
+
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
+exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+
+
+general {
+    gaps_in = 3
+    gaps_out = 8
+    border_size = 2
+    col.active_border = rgba(1E3734ff) rgba(29524Dff) 45deg
+    col.inactive_border = rgba(0E120Fff) rgba(0E1C18ff) 45deg
+    layout = dwindle
+    resize_on_border = true
+}
+
+group {
+    col.border_active = rgba(1E3734ff) rgba(29524Dff) 45deg
+    col.border_inactive = rgba(0E120Fcc) rgba(0E1C18cc) 45deg
+    col.border_locked_active = rgba(FFFFFFff) rgba(FFFFFFff) 45deg
+    col.border_locked_inactive = rgba(FFFFFFcc) rgba(FFFFFFcc) 45deg
+}
+
+decoration {
+    rounding = 10
+    drop_shadow = false
+    drop_shadow = no
+
+    blur {
+        enabled = yes
+        size = 4
+        passes = 2
+        new_optimizations = on
+        ignore_opacity = on
+        xray = false
+        # contrast = 0.8916
+        brightness = 1.7172
+    }
+}
+
+layerrule = blur,waybar
+
