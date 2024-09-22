@@ -14,13 +14,13 @@
 
 ## Installation
 ```sh
-Hyde theme patch "Red Stone" https://github.com/mahaveergurjar/Red-Stone
+Hyde theme patch "Monokai" https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai
 ```
 or 
 ```sh
 Hyde theme patch
 ```
-and choose Red Stone
+and choose Monokai
 
 ---
 
