@@ -20,6 +20,8 @@
 
 ---
 
+</br>
+
 [![Greenify](https://placehold.co/180x50/0e120f/295233?text=Greenify&font=Oswald)](https://github.com/mahaveergurjar/Theme-Gallery/tree/Greenify)
 
 ![Greenify Screenshot 1](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Greenify/screenshots/1.png)
@@ -38,8 +40,6 @@ Hyde theme patch
 ```
 
 and choose Greenify
-
----
 
 ---
 
@@ -66,7 +66,7 @@ and choose Monokai
 
 ---
 
----
+</br>
 
 [![Red-Stone](https://placehold.co/180x50/7E5655/C94342?text=Red+Stone&font=Oswald)](https://github.com/mahaveergurjar/Theme-Gallery/tree/Red-Stone)
 
