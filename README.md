@@ -48,7 +48,7 @@ and choose Greenify
 [![Monokai](https://placehold.co/180x50/2d2a2e/f92672?text=Monokai&font=Oswald)](https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai)
 
 ![Monokai Screenshot 1](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Monokai/screenshots/1.png)
-![Monokai Screenshot 2](./screenshots/240710_23h48m57s_screenshot.png)
+![Monokai Screenshot 2](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Monokai/screenshots/2.png)
 
 ## Installation
 
