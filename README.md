@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-Hyde theme patch "Red Stone" https://github.com/mahaveergurjar/Red-Stone
+Hyde theme patch "Greenify" https://github.com/mahaveergurjar/Theme-Gallery/tree/Greenify
 ```
 
 or
@@ -24,7 +24,7 @@ or
 Hyde theme patch
 ```
 
-and choose Red Stone
+and choose Greenify
 
 ---
 
