@@ -30,13 +30,13 @@
 ### Installation
 
 ```sh
-Hyde theme patch "Greenify" https://github.com/mahaveergurjar/Theme-Gallery/tree/Greenify
+Hyde theme import "Greenify" https://github.com/mahaveergurjar/Theme-Gallery/tree/Greenify
 ```
 
 or
 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 
 and choose Greenify
@@ -53,13 +53,13 @@ and choose Greenify
 ## Installation
 
 ```sh
-Hyde theme patch "Monokai" https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai
+Hyde theme import "Monokai" https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai
 ```
 
 or
 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 
 and choose Monokai
@@ -77,13 +77,13 @@ and choose Monokai
 ### Installation
 
 ```sh
-Hyde theme patch "Red-Stone" https://github.com/mahaveergurjar/Theme-Gallery/tree/Red-Stone
+Hyde theme import "Red-Stone" https://github.com/mahaveergurjar/Theme-Gallery/tree/Red-Stone
 ```
 
 or
 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 
 and choose Red-Stone
