@@ -14,11 +14,11 @@
 
 ## Installation
 ```sh
-Hyde theme patch "Red Stone" https://github.com/mahaveergurjar/Red-Stone
+Hyde theme import "Red Stone" https://github.com/mahaveergurjar/Red-Stone
 ```
 or 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 and choose Red Stone
 
