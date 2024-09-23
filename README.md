@@ -14,11 +14,11 @@
 
 ## Installation
 ```sh
-Hyde theme patch "Monokai" https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai
+Hyde theme import "Monokai" https://github.com/mahaveergurjar/Theme-Gallery/tree/Monokai
 ```
 or 
 ```sh
-Hyde theme patch
+Hyde theme import
 ```
 and choose Monokai
 
