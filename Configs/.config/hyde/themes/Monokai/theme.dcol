@@ -1,6 +1,5 @@
 ## Monokai-inspired colors for your dark mode configuration
 
-dcol_mode="dark"
 dcol_pry1="2C2525"
 dcol_2xa2="2D2A2E"
 dcol_2xa9="F92672"
