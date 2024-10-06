@@ -51,4 +51,3 @@ windowrulev2 = opacity 0.80 0.70,class:^(blueman-manager)$
 windowrulev2 = opacity 0.80 0.70,class:^(nm-applet)$
 windowrulev2 = opacity 0.80 0.70,class:^(nm-connection-editor)$
 layerrule = blur,waybar 
-layerrule = blur,rofi 
