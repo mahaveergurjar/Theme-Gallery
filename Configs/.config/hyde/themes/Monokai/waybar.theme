@@ -2,7 +2,7 @@ $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
 @define-color bar-bg rgba(0, 0, 0, 0);
 
 @define-color main-bg #2C2525;
-@define-color main-fg #F8F8F2; 
+@define-color main-fg #F38BA8; 
 
 @define-color wb-act-bg #F92672; 
 @define-color wb-act-fg #F8F8F2; 
