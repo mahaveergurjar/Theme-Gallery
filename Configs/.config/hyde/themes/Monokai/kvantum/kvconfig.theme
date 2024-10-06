@@ -1,5 +1,5 @@
 $HOME/.config/Kvantum/wallbash/wallbash.kvconfig
-[General]
+[%General]
 author=Adapted from Monokai Pro theme
 comment=Monokai Pro color scheme
 spread_menuitems=true
@@ -74,22 +74,22 @@ menu_blur_radius=6
 tooltip_blur_radius=6
 
 [GeneralColors]
-window.color=#2d2a2e        ; Updated Monokai Pro background
-base.color=#2d2a2e          ; Changed inner base color to #2d2a2e
+window.color=#2C2525        ; Updated Monokai Pro background
+base.color=#2C2525          ; Changed inner base color to #2C2525
 alt.base.color=#49483E      
 button.color=#3E3D32        
 light.color=#75715E         
 mid.light.color=#A59F85     
-dark.color=#2d2a2e          ; Dark color updated
+dark.color=#2C2525          ; Dark color updated
 mid.color=#49483E           
 highlight.color=#F92672     
-inactive.highlight.color=#2d2a2e ; Changed inner highlight to #2d2a2e
+inactive.highlight.color=#2C2525 ; Changed inner highlight to #2C2525
 text.color=#F8F8F2          
 window.text.color=#F8F8F2   
 button.text.color=#F8F8F2   
 disabled.text.color=#75715E 
 tooltip.text.color=#F8F8F2  
-highlight.text.color=#2d2a2e
+highlight.text.color=#2C2525
 link.color=#66D9EF          
 link.visited.color=#AE81FF  
 
@@ -161,3 +161,4 @@ frame.top=4
 frame.bottom=4
 frame.left=4
 frame.right=4
+

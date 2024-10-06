@@ -1,0 +1,58 @@
+# Monokai-inspired colors for your dark mode configuration
+
+dcol_mode="dark"
+
+##---------------##----------------##
+
+## Dunst color
+
+# urgency_low
+dcol_3xa5="2D2A2E" # background 
+dcol_3xa9="F8F8F0"  # foreground 
+
+# urgency_normal
+dcol_2xa2="2D2A2E" # background  
+dcol_2xa9="F92672" # foreground  
+
+# volume 
+dcol_4xa2="6B3A3A" # vol base
+dcol_4xa3="7D4B4B" # vol shadow 
+dcol_4xa1="522929" # vol dial 
+dcol_4xa1="F92672" # vol anchor 
+dcol_4xa8="F92672" # vol shadow 
+dcol_4xa9="F38BA8" # vol shadow
+
+# mute
+dcol_4xa8="F92672" # speaker
+dcol_4xa8="F92672" # mic
+
+# unmute
+dcol_4xa9="F38BA8" # speaker
+dcol_4xa9="F38BA8" # mic
+
+##---------------##----------------##
+
+## Spotify
+
+dcol_4xa9="F38BA8" #text
+dcol_4xa8="F92672" #subtext
+dcol_4xa7="F8F8F0" #nav-active-text
+dcol_pry1="2C2525" #main
+dcol_pry1    #sidebar
+dcol_pry1    #player
+dcol_pry1    #card
+dcol_1xa1    #shadow
+dcol_2xa2    #main-secondary
+dcol_3xa8    #button
+dcol_3xa7    #button-secondary
+dcol_3xa6    #button-active
+dcol_pry2    #button-disabled
+dcol_3xa2    #nav-active
+dcol_3xa3    #play-button
+dcol_pry2    #tab-active
+dcol_pry1    #notification
+dcol_pry1    #notification-error
+dcol_pry1    #playback-bar
+dcol_pry2    #misc
+
+##---------------##----------------##

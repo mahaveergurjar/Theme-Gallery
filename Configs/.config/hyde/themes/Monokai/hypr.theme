@@ -36,13 +36,20 @@ decoration {
     blur {
         enabled = true
         size = 4
-        passes = 2
+        passes = 3
         new_optimizations = on
         ignore_opacity = true
         xray = false
+        brightness = 1
     }
     
 }
 
 windowrule=opacity 1 override 1 override,title:(.*)
+windowrulev2 = opacity 0.80 0.70,class:^(pavucontrol)$
+windowrulev2 = opacity 0.80 0.70,class:^(blueman-manager)$
+windowrulev2 = opacity 0.80 0.70,class:^(nm-applet)$
+windowrulev2 = opacity 0.80 0.70,class:^(nm-connection-editor)$
+windowrulev2 = opacity 0.80 0.80,class:^(kitty)$
 layerrule = blur,waybar 
+layerrule = blur,rofi 

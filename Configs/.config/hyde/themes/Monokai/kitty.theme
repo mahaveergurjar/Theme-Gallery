@@ -1,14 +1,13 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-## name:     Monokai Pro
-## author:   Monokai
-## license:  MIT
-## blurb:    Monokai Pro color scheme for Kitty terminal.
+## name:     Monokai 
+## author:   Mahaveer
+## blurb:    Monokai  color scheme for Kitty terminal.
 
 # The basic colors
 foreground              #F8F8F2
-background              #2d2a2e
-selection_foreground    #2d2a2e
+background              #2C2525
+selection_foreground    #2C2525
 selection_background    #F8F8F2
 
 # Cursor colors
@@ -61,8 +60,8 @@ color3  #F9E2AF
 color11 #F9E2AF
 
 # blue
-color4  #87B0F9
-color12 #87B0F9
+color4  #F38D70
+color12 #F38D70
 
 # magenta
 color5  #F5C2E7
