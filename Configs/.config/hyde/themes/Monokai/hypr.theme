@@ -3,10 +3,11 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 # $SDDM-THEME = Monokai
 $GTK-THEME = Monokai
 $ICON-THEME = Monokai
+$COLOR_SCHEME=prefer-dark
 
 exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 # // Set the sddm theme here
 # exec = Hyde sddm set $SDDM-THEME
@@ -31,7 +32,6 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
 
     blur {
         enabled = true
@@ -41,14 +41,20 @@ decoration {
         ignore_opacity = true
         xray = false
         brightness = 1
+        noise=0.04
+    }
+    shadow {
+        enabled = false
     }
     
 }
 
-windowrule=opacity 1 override 1 override,title:(.*)
+#windowrule=opacity 1 override 1 override,title:(.*)
 windowrulev2 = opacity 0.80 0.70,class:^(pavucontrol)$
 windowrulev2 = opacity 0.80 0.70,class:^(blueman-manager)$
 windowrulev2 = opacity 0.80 0.70,class:^(nm-applet)$
 windowrulev2 = opacity 0.80 0.70,class:^(nm-connection-editor)$
-windowrulev2 = opacity 0.90 0.90,class:^(kitty)$
+windowrulev2 = opacity 0.70 0.70,class:^(kitty)$
+windowrulev2 = opacity 0.80 0.70,class:^(dev.warp.Warp)$
 layerrule = blur,waybar 
+layerrule = blur,rofi 
