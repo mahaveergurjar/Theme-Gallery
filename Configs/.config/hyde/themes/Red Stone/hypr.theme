@@ -4,10 +4,12 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 $SDDM-THEME = Red-Stone
 $GTK-THEME = Red-Stone
 $ICON-THEME = Tela-circle-red
+$COLOR_SCHEME=prefer-dark
+
 
 exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 # // Set the sddm theme here
 exec = Hyde sddm set $SDDM-THEME
@@ -31,7 +33,6 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
 
     blur {
         enabled = yes
@@ -41,6 +42,12 @@ decoration {
         ignore_opacity = on
         xray = false
     }
+    shadow {
+        enabled = false
+    }
 }
+
+layerrule = blur,waybar
+layerrule = ignorezero,waybar
 
 
