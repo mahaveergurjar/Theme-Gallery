@@ -2,10 +2,12 @@ $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
 $GTK-THEME = Greenify
 $ICON-THEME = Tela-circle-green
+$COLOR_SCHEME=prefer-dark
+
 
 exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
 exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
-exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 
 general {
@@ -27,8 +29,6 @@ group {
 
 decoration {
     rounding = 10
-    drop_shadow = false
-    drop_shadow = no
 
     blur {
         enabled = yes
@@ -40,6 +40,10 @@ decoration {
         # contrast = 0.8916
         brightness = 1.7172
     }
+    shadow {
+        enabled = false
+    }
+
 }
 
 layerrule = blur,waybar
