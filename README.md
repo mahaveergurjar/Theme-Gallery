@@ -70,9 +70,9 @@ and choose Monokai
 
 [![Red-Stone](https://placehold.co/180x50/7E5655/C94342?text=Red+Stone&font=Oswald)](https://github.com/mahaveergurjar/Theme-Gallery/tree/Red-Stone)
 
-![Red Stone Screenshot 1](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red-Stone/screenshots/240713_22h51m38s_screenshot.png)
-![Red Stone Screenshot 2](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red-Stone/screenshots/240710_23h48m57s_screenshot.png)
-![Red Stone Screenshot 3](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red-Stone/screenshots/240713_22h55m14s_screenshot.png)
+![Red Stone Screenshot 1](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red_Stone/screenshots/240713_22h51m38s_screenshot.png)
+![Red Stone Screenshot 2](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red_Stone/screenshots/240710_23h48m57s_screenshot.png)
+![Red Stone Screenshot 3](https://raw.githubusercontent.com/mahaveergurjar/Theme-Gallery/refs/heads/Red_Stone/screenshots/240713_22h55m14s_screenshot.png)
 
 ### Installation
 
