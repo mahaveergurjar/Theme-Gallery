@@ -14,7 +14,7 @@
 
 ## Installation
 ```sh
-Hyde theme import "Red Stone" https://github.com/mahaveergurjar/Red-Stone
+Hyde theme import "Red Stone" https://github.com/mahaveergurjar/Red_Stone
 ```
 or 
 ```sh
