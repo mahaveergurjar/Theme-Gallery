@@ -77,7 +77,7 @@ and choose Monokai
 ### Installation
 
 ```sh
-Hyde theme import "Red-Stone" https://github.com/mahaveergurjar/Theme-Gallery/tree/Red_Stone
+Hyde theme import "Red Stone" https://github.com/mahaveergurjar/Theme-Gallery/tree/Red_Ston
 ```
 
 or
