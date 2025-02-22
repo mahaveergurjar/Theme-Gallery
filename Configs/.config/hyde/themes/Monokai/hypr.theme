@@ -1,16 +1,16 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-# $SDDM-THEME = Monokai
-$GTK-THEME = Monokai
-$ICON-THEME = Monokai
+# $SDDM_THEME = Monokai
+$GTK_THEME = Monokai
+$ICON_THEME = Monokai
 $COLOR_SCHEME=prefer-dark
 
-exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
-exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 # // Set the sddm theme here
-# exec = Hyde sddm set $SDDM-THEME
+# exec = Hyde sddm set $SDDM_THEME
 
 
 general {
