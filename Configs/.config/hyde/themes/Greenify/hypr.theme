@@ -1,12 +1,12 @@
 $HOME/.config/hypr/themes/theme.conf|> $HOME/.config/hypr/themes/colors.conf
 
-$GTK-THEME = Greenify
-$ICON-THEME = Tela-circle-green
+$GTK_THEME = Greenify
+$ICON_THEME = Tela-circle-green
 $COLOR_SCHEME=prefer-dark
 
 
-exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON-THEME'
-exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK-THEME'
+exec = gsettings set org.gnome.desktop.interface icon-theme '$ICON_THEME'
+exec = gsettings set org.gnome.desktop.interface gtk-theme '$GTK_THEME'
 exec = gsettings set org.gnome.desktop.interface color-scheme '$COLOR_SCHEME'
 
 
